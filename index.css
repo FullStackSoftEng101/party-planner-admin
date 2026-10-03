@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0 1rem;
+  background-color: black;
+  color: white;
 }
 
 h1 {
@@ -31,25 +33,35 @@ main {
   border-radius: 0.25rem;
   padding: 1ch;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .parties a:hover {
-  background: #eee;
+  background: grey;
   font-style: italic;
 }
 
 .parties li.selected {
   font-weight: bold;
   font-style: italic;
+  background-color: blueviolet;
 }
-
+/* 
 form {
   display: grid;
   gap: 1ch;
   padding: 0 1rem;
-}
+
 
 label {
   display: grid;
+}
+} */
+form {
+  display: grid;
+  gap: 0.25rem;
+  label {
+    display: grid;
+    gap: 0.25rem;
+  }
 }
